@@ -193,3 +193,15 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
+.contact-link {
+  color: #80dfff; /* Light blue */
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #00f0ff;
+  text-shadow: 0 0 8px #00f0ff;
+}
