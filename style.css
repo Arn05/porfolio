@@ -67,6 +67,16 @@ body {
   color: inherit;
 }
 
+.card-link,
+.card-link:link,
+.card-link:visited,
+.card-link:hover,
+.card-link:active {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+
 .card-link .card {
   cursor: pointer;
 }
